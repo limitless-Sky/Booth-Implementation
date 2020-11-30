@@ -2,24 +2,20 @@
  
  
 INPUT-
-*****
 First Number
 Second Number
 
 
 OUTPUT-
-******
 Result of multiplication of two numbers in binary as well as magnitude.
 Text file named "answer.txt" containing input numbers,step used in approach for result and result of multiplication.
 
 
 LANGUAGE USED
-*************
 Implemented in JAVA
 
 
 METHODOLOGY
-***********
 1.Two input number taken from user are converted into binary by keeping in mind whether the number is negative or not.
 2.Set the upper bound on number of register bit as 12 bit if binary form two number has maximum length of  12 or as 24 bit if the maximum length exceeds 12.
 3.First number is assigned M and second number is assigned Q with accumulator initialized as acc containing 12 or 24 bit zero string.
@@ -34,7 +30,6 @@ METHODOLOGY
 
 
 FUNCTIONS CREATED
-*****************
 1. multiply(String,String,PrintWriter)                  which multiply two binary string and return resultant binary string.
 2. magnitude(String)                                    which return integer magnitude of passed binary string.
 3. change_to_bits(String,int)                           which return string of required number of bits passes as int.
